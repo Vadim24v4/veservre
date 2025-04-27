@@ -1,0 +1,55 @@
+
+
+.header {
+
+    overflow: hidden;
+
+    &__inner {
+        display: flex;
+        justify-content: space-between;
+    }
+
+
+    &__menu {
+        &-list {
+            display: flex;
+            gap: 50px;
+        }
+
+        &-item {
+            text-transform: uppercase;
+            font-size: 12px;
+            transition: all .3s;
+
+            &:hover {
+
+                color: orange;
+                transform: scale(1.1);
+            }
+        }
+
+
+        &-link {
+            transition: all .3s;
+
+            &:hover {
+                color: orange;
+            }
+        }
+
+
+    }
+
+    .stick {
+        width: 1px;
+        height: 20px;
+        background: black;
+    }
+
+
+    .search {
+        padding-top: 5px;
+    }
+}
+
+
